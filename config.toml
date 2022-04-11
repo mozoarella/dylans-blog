@@ -1,3 +1,9 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://dylans.blog/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Dylan's Blog"
+theme = "PaperMod"
+
+
+[params]
+    ShowCodeCopyButtons= true
+
