@@ -23,5 +23,8 @@ I also used to be obsessed with running my own webservers but since I also do th
 Wherever possible I now heavily rely on the power of static site generator and the services allowing you to host them at next to no cost/effort.
 Now both this blog and my [personal site](https://dylanmaassen.nl) run on Cloudflare Pages and changing them is as simple as a git push.
 
+As for this blog, I'm pretty technical so a good chunk of my posts will be about the latest newest tool I've found to achieve something.
+However, I don't want it to just be technobabble. I *hopefully* have more on my mind ;)
+
 
 
