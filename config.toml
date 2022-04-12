@@ -6,4 +6,6 @@ theme = "PaperMod"
 
 [params]
     ShowCodeCopyButtons= true
+    defaultTheme= "dark"
+    disableThemeToggle= true
 
