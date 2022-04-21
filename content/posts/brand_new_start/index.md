@@ -20,11 +20,8 @@ The past year I've been working on just simplifying the stuff in my life that do
 For example I used to have like 5 Spotify playlists. I ended up just moving everything into one and even that gave some kind of peace.
 I also used to be obsessed with running my own webservers but since I also do that for a living I wanted my personal projects to be simpler.
 
-Wherever possible I now heavily rely on the power of static site generator and the services allowing you to host them at next to no cost/effort.
+Wherever possible I now heavily rely on the power of static site generators and the services allowing you to host their output at next to no cost/effort.
 Now both this blog and my [personal site](https://dylanmaassen.nl) run on Cloudflare Pages and changing them is as simple as a git push.
 
 As for this blog, I'm pretty technical so a good chunk of my posts will be about the latest newest tool I've found to achieve something.
 However, I don't want it to just be technobabble. I *hopefully* have more on my mind ;)
-
-
-
