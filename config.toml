@@ -8,6 +8,9 @@ theme = "PaperMod"
     ShowCodeCopyButtons= true
     defaultTheme= "dark"
     disableThemeToggle= true
+    [params.homeInfoParams]
+        Title= "Hiya!"
+        Content= "Welcome to my blog, I'm Dylan. You can visit my main <a href='https://dylanmaassen.nl'>website here</a>. This blog is mainly used as a braindump with the occasional useful tidbit about a project I'm working on."
 
 [markup]
     [markup.goldmark]
