@@ -50,8 +50,6 @@ The structure of the tag is as follows:
 **vcs** can also have the value 'mod' which is used to refer to a [module proxy](https://go.dev/ref/mod#goproxy-protocol). I will not be dealing with module proxies in this post either.
 
 ## Enter Cloudflare Workers
-So let's get into actually setting up a system to return that XML, as you get 100k requests per day on their free plan it beats setting up your own server. Unless you're already running a webserver, of course.
+So let's get into actually setting up a system to return that XML. As you get 100k requests per day on their free plan, Cloudflare Workers are a pretty good deal. Unless you're already running a webserver, of course.
 
-{{< blockquote >}}
-    This guide kinda assumes you're already familiar with Cloudflare basics.
-{{< /blockquote >}}
+***This post assumes you already know some Cloudflare basics and that your domain has already been added to their service.***
