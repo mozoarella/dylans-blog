@@ -7,15 +7,40 @@ enableGitInfo = true
 [permalinks]
     posts = '/:title'
 
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
 [params]
-    ShowCodeCopyButtons= true
     defaultTheme= "dark"
     disableThemeToggle= true
+    [params.assets]
+        disableHLJS= true
     [params.homeInfoParams]
         Title= "Hiya!"
         Content= "Welcome to my blog, I'm Dylan. You can visit my main <a href='https://dylanmaassen.nl'>website here</a>. This blog is mainly used as a braindump with the occasional useful tidbit about a project I'm working on."
+    [params.fuseOpts]
+        threshold= 0.1
 
 [markup]
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true
+    [markup.highlight]
+        codeFences= true
+        guessSyntax= false
+        lineNos= true
+        lineNumbersInTable = true
+        style = 'paraiso-dark'
+
+[menu]
+    [[menu.main]]
+        identifer = 'search'
+        name = 'Search'
+        pre = '🔎'
+        url = '/search/'
+        weight = 10
+    [[menu.main]]
+    identifer = 'archive'
+    name = 'Archive'
+    url = '/archive/'
+    weight = 20

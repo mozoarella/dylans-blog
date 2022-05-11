@@ -3,6 +3,7 @@ title: "A Brand New Start"
 date: 2022-04-12T23:04:38+02:00
 draft: true
 weight: 0
+authors: ["Dylan Maassen van den Brink"]
 tags: []
 cover:
     image: "img/header.jpg"
