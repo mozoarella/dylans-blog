@@ -53,3 +53,5 @@ The structure of the tag is as follows:
 So let's get into actually setting up a system to return that XML. As you get 100k requests per day on their free plan, Cloudflare Workers are a pretty good deal. Unless you're already running a webserver, of course.
 
 ***This post assumes you already know some Cloudflare basics and that your domain has already been added to their service.***
+
+small change to trigger a build
