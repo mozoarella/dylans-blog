@@ -2,7 +2,10 @@ baseURL = 'https://dylans.blog/'
 languageCode = 'en-us'
 title = "Dylan's Blog"
 theme = "PaperMod"
+enableGitInfo = true
 
+[permalinks]
+    posts = '/:title'
 
 [params]
     ShowCodeCopyButtons= true

@@ -1,6 +1,6 @@
 ---
-title: "The War on Autism"
-date: 2022-05-10T19:41:46+02:00
+title: "My thoughts on autistic representation"
+date: 2022-05-09T19:41:46+02:00
 draft: true
 weight: 0
 author: ["Dylan Maassen van den Brink"]
@@ -11,8 +11,6 @@ cover:
     caption: "Photo by [Mel Poole](https://unsplash.com/@melpoole?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/puzzle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) (slightly decreased brightness)"
     relative: true
 ---
-
-Man, what a title. No worries though, I'm keeping this post relatively light-hearted :)  
 
 There's been a shift in representation of autism over the past few years and it appears public opinion has shifted in a *mostly* positive way, but there are some things I am not entirely satisfied with.
 Some people have started treating their diagnosis as a personality rather than something that affects them, personally I think that downplays the disorder in a way that could be damaging in the long run.  
