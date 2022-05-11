@@ -1,9 +1,9 @@
 {{- $scratch := newScratch }}
 
 {{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }}
+{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "02 January 2006" site.Params.DateFormat)))) }}
 {{- if not (eq (.Date.Format "January 2, 2006") (.Lastmod.Format "January 2, 2006")) }}
-{{- $scratch.Add "meta" (slice (printf "<span title='%s'>Edited: %s</span>" (.Lastmod) (.Lastmod | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }}
+{{- $scratch.Add "meta" (slice (printf "<span title='%s'>Edited: %s</span>" (.Lastmod) (.Lastmod | time.Format (default "02 January 2006" site.Params.DateFormat)))) }}
 {{- end }}
 {{- end }}
 
