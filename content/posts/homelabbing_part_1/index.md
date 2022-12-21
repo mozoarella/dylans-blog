@@ -3,12 +3,12 @@ title: "Homelabbing: Part 1"
 date: 2022-11-11T17:38:51+01:00
 draft: true
 weight: 0
-tags: []
+tags: ['Homelab', 'Proxmox', 'Linux', 'Hardware']
 summary: "In this x part series Dylan explores the wonder of trying to run server workloads on consumer hardware. This is part 1 in which he struggles to install Proxmox VE"
 cover:
-    image: "img/header.jpg"
-    alt: "Header image alt text"
-    caption: "header image caption"
+    image: "img/server.webp"
+    alt: "A (human) server serving a croissant to a patron at a restaurant."
+    caption: "Haha they're a server, get it? (please laugh) - [Credit](https://www.pexels.com/photo/woman-in-black-long-sleeve-shirt-sitting-on-chair-3907080/)"
     relative: true
 ShowToc: true
 ---
@@ -69,7 +69,7 @@ Create a file in `/usr/share/X11/xorg.conf.d` called something ending in `.conf`
 
 Add the following content:
 
-```text
+```bash
 Section "Device"
     Identifier "Card0"
     Driver "fbdev"
@@ -86,6 +86,7 @@ Then restart X with `xinit -- -dpi 96 >/dev/tty2 2>&1` and you should be golden.
 After this Proxmox worked brilliantly, I hope they do release a non-graphical installer one day. 
 You administer Proxmox through a webinterface so actually requiring the system running it to have graphics is quite dumb.
 
-![Proxmox main screen](img/proxmox_overview.webp)
+{{< lightbox img="img/proxmox_overview.webp" group="none" caption="yes" alt="Proxmox main screen" >}}
+
 
 

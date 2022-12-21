@@ -1,0 +1,3 @@
+<a href="{{ .Get "img" }}" data-lightbox="{{ .Get "group" }}" {{ with .Get "caption" }} data-title="{{ . }}"{{ end }} {{ with .Get "alt" }} data-alt="{{ . }}"{{ end }}>
+    <img loading="lazy" src="{{ .Get "img" }}" {{ with .Get "alt" }} alt="{{ . }}"{{ end }} title="" style="">
+</a>

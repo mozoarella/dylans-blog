@@ -22,10 +22,19 @@
     margin: 20px 5px;
     padding: 5px 14px;
     border-inline-start: 3px solid var(--primary);
-    background-color: #213355;
+    background-color: #2f1e2e;
 }
 
 .post-content blockquote p:last-child{
     padding: 0;
     margin-bottom: 0 !important;
+}
+
+.post-footer #post-tag-container {
+    background-color: #2f1e2e;
+    padding: 20px 20px;
+}
+
+.post-footer #post-tag-container p {
+    margin-bottom: 5px;
 }
