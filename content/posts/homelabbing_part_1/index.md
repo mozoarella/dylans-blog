@@ -10,7 +10,6 @@ cover:
     alt: "A (human) server serving a croissant to a patron at a restaurant."
     caption: "Haha they're a server, get it? (please laugh) - [Credit](https://www.pexels.com/photo/woman-in-black-long-sleeve-shirt-sitting-on-chair-3907080/)"
     relative: true
-ShowToc: true
 ---
 
 In the past I have spent copious amounts of money on cloud computing services and I have decided that enough is enough.
