@@ -3,7 +3,7 @@ title: "Infinite Power(DNS)"
 date: 2022-12-23T18:49:52+01:00
 draft: true
 weight: 0
-tags: []
+tags: ["PowerDNS", "DNS", "dnsdist"]
 summary: "Or how I'm using PowerDNS Authoritative Server, Recursor and dnsdist to manage and update internal domains."
 cover:
     image: "img/dnsoverkill.webp"
@@ -41,7 +41,7 @@ Using a programming language as configuration tool does increase the learning cu
 ## Set-up
 
 ### Choice of host
-For my DNS needs it seemed awfully boneheaded to host the services as a virtual machine on [the Proxmox server]({{< ref "/posts/homelabbing_part_1" >}}) as it might end up creating a circular dependency.  
+For my DNS needs it seemed like a bad idea to host the services as a virtual machine on [the Proxmox server]({{< ref "/posts/homelabbing_part_1" >}}) as it might end up creating a circular dependency.  
 
 Luckily, I still have my Raspberry Pi 3B which up until now has maybe seen up to a few hours of usage. 
 It's an 64-bit ARM device which is good because they're dropping 32-bit ARM support as soon as the last supported version (4.4.x) hits EOL (Which it did on the 20th of october 2022 lol).  

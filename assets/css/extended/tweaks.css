@@ -38,3 +38,7 @@
 .post-footer #post-tag-container p {
     margin-bottom: 5px;
 }
+
+.home-info{
+    min-height: auto;
+}
