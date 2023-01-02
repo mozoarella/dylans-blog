@@ -21,7 +21,7 @@ Of course there are multiple suitable DNS servers on the market that you could i
 - Support for multiple backends (I'm using sqlite for the record)
 - An HTTP API (SOAP would have been fine, REST using JSON is ideal)
 - Support for exporting metrics (Bit overkill for a home environment but it's good practice)
-- Support for Dynamic DNS Updates ([RFC2136](https://www.rfc-editor.org/rfc/rfc2136))
+- Support for Dynamic DNS Updates ({{< extlink url="https://www.rfc-editor.org/rfc/rfc2136" text="RFC2136" >}})    
 - Ability to perform recursive lookups to external domains.
 
 ## PowerDNS does it all, kinda
