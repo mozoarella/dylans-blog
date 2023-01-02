@@ -48,7 +48,7 @@ It's an 64-bit ARM device which is good because they're dropping 32-bit ARM supp
 
 ### Needs some more time in the oven
 But here's the bad news, they don't have builds for 64-bit ARM yet. Some people are running it on Docker and using scary build flags to run newer versions.
-But if you're running on bare Pi you're stuck on version 4.4 which is EOL. [They are working on 64-bit builds tho](https://github.com/PowerDNS/pdns/issues/8655 "{rel='nofollow' target='_blank'}")  
+But if you're running on bare Pi you're stuck on version 4.4 which is EOL. {{< extlink url="https://github.com/PowerDNS/pdns/issues/8655" text="They are working on 64-bit builds tho." >}}  
 
 This is not ideal but in a situation where only my local devices can touch the PowerDNS services I decided the risk of running an EOL version is acceptable.
 
@@ -145,6 +145,11 @@ All                                                              1.0            
 
 ```
 
-You can see the authoritative server isn't getting a whole lot of requests, it only handles the dy.lan and the most common requests have been cached.
+## Basic Operations
+
+### Adding a domain
+Earlier we've set up PowerDNS Recursor to forward requests for the 'dy.lan' domain to our authoritative server. But what if we don't have a domain yet?
+
+### Setting up DNS Update
 
 

@@ -44,8 +44,8 @@ Apparently this particular version of the kernel doesn't quite support the integ
 
 The solution came through these two posts on the Proxmox forums:
 
-[Part 1](https://forum.proxmox.com/threads/how-to-do-nomodeset-booting-up-7-2-installer.110307/post-483024 "{rel='nofollow' target='_blank'}"), 
-[Part 2](https://forum.proxmox.com/threads/generic-solution-when-install-gets-framebuffer-mode-fails.111577/ "{rel='nofollow' target='_blank'}").
+{{< extlink url="https://forum.proxmox.com/threads/how-to-do-nomodeset-booting-up-7-2-installer.110307/post-483024" text="Part 1" >}},
+{{< extlink url="https://forum.proxmox.com/threads/generic-solution-when-install-gets-framebuffer-mode-fails.111577/" text="Part 2" >}}.
 
 If those posts ever disappear, the steps are as follows:
 
