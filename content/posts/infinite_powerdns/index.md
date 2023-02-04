@@ -153,3 +153,6 @@ Earlier we've set up PowerDNS Recursor to forward requests for the 'dy.lan' doma
 ### Setting up DNS Update
 
 
+{{< callout type="info" >}}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus massa sed metus auctor, quis tincidunt nisl fringilla. Donec varius id nisl in fringilla. Nunc aliquet eu ex quis commodo. Etiam ornare commodo dui congue pulvinar. Sed ullamcorper viverra nisl et consectetur. Fusce at placerat lorem, ut pretium magna. Nulla mollis facilisis pellentesque. Suspendisse elementum eu nunc sed porta. Donec vel elit viverra, ultricies tortor maximus, scelerisque ex. Nunc egestas condimentum nibh vel imperdiet. Sed ac lectus leo. Nam non consequat metus. 
+{{< /callout >}}

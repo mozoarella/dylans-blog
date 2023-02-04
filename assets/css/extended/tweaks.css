@@ -42,3 +42,18 @@
 .home-info{
     min-height: auto;
 }
+
+.callout{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-style: solid;
+    padding: 10px;
+    align-items: center;
+    margin: 5px 0 5px 0;
+}
+
+.callout p {
+    padding: 20px;
+    margin: 0;
+}
