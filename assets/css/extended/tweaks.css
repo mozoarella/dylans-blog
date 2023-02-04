@@ -17,7 +17,6 @@
     --border: rgb(238, 238, 238);
 }
 
-
 .post-content blockquote {
     margin: 20px 5px;
     padding: 5px 14px;
@@ -50,10 +49,32 @@
     border-style: solid;
     padding: 10px;
     align-items: center;
-    margin: 5px 0 5px 0;
+    margin: 10px 0 10px 0;
 }
 
 .callout p {
     padding: 20px;
     margin: 0;
+}
+
+.post-thanks{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-style: solid;
+    padding: 20px;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    background-color: #424242;
+    color: #dbdbdb; 
+    border-color: #2d2d2d;
+}
+
+.post-thanks div {
+    padding: 20px;
+    margin: 0;
+}
+
+.post-thanks a {
+    box-shadow: 0 1px;
 }
