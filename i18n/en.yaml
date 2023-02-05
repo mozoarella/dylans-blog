@@ -37,3 +37,6 @@
 
 - id: thanks_text
   translation: "If you have any feedback or questions regarding this post be sure to checkout <a href=\"https://dylanmaassen.nl\">my main site</a> to find ways to get in touch. Sharing is of course also really appreciated."
+
+- id: post_more_text
+  translation: "More to think about"

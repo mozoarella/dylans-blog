@@ -38,9 +38,7 @@
 
   <footer class="post-footer">
     {{- partial "post_thanks.html" . }}
-    {{- if .Params.tags }}
-    {{- partial "post_tags.html" . }}
-    {{- end }}
+    {{- partial "post_more.html" . }}
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
     {{- end }}
