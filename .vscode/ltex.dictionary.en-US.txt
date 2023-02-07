@@ -21,3 +21,9 @@ BusID
 fbdev
 webp
 proxmox
+vcs
+mozoa
+nl
+bzr
+svn
+hg
