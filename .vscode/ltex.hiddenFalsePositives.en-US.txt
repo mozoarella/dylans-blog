@@ -4,3 +4,4 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QDuring set-up, we've configured the PowerDNS Recursor to forward requests for test.lan to the authoritative nameserver.\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q{{< lightbox img=\"img/PowerDNS_diagram_1.png\" group=\"diagrams\" center=\"si\" >}}\\E$"}
 {"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QDnsdist\nDnsdist uses Lua for its configuration, it has a bit of a learning curve and the nesting of rules can get confusing quick.\\E$"}
+{"rule":"A_INFINITIVE","sentence":"^\\QAnd it's all wrapped in a be quiet!\\E$"}

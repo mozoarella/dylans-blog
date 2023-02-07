@@ -13,3 +13,11 @@ img
 homelabbing
 sqlite
 dy
+EVO
+FireCuda
+vga
+lspci
+BusID
+fbdev
+webp
+proxmox

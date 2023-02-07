@@ -22,24 +22,24 @@ At the moment the rig consists of the following:
 - 32 GB of 3200Mhz Corsair Vengeance LPX RAM
 - MSI PRO Z690-P DDR4 motherboard
 - Fractal Design ION+ 2 560W Platinum PSU
-- Seagate FireCuda 530 500GB M.2 SSD
-- Samsung 870 EVO 1TB SSD
-- Samsung 970 EVO Plus 500GB M.2 SSD (already had one laying around)
+- Seagate FireCuda 530 500 GB M.2 SSD
+- Samsung 870 EVO 1 TB SSD
+- Samsung 970 EVO Plus 500 GB M.2 SSD (already had one lying around)
 
-Oh and it's all wrapped in a be quiet! Pure Base 500 case but that doesn't make it serve any faster.  
+Oh! And it's all wrapped in a be quiet! Pure Base 500 case but that doesn't make it serve any faster.  
 I did replace the case fans with be quiet! Silent Wings 3 and boy are they silent. 
-Like I haven't measured but I'd be hard pressed to hear the system at all.
+Like I haven't measured, but I'd be hard-pressed to hear the system at all.
 
 ## Dawn of the first snag
 
 Nothing ever comes easy, does it?
 
-The system went through its first POST correctly after a short period of self-discovery (at least I think that's what rebooting thrice means). and Virtualization support was enabled out of the box.  
-I flashed the Proxmox VE 7.2 ISO to a flashdrive and it booted from the flashdrive straight away. All is happy in the world right? right.
+The system went through its first POST correctly after a short period of self-discovery (at least I think that's what rebooting thrice means). And Virtualization support was enabled out of the box.  
+I flashed the Proxmox VE 7.2 ISO to a flash drive, and it booted from the flash drive straight away. All is happy in the world right? Right.
 
 The installer for Proxmox (based on Debian) halted on a very descriptive `Waiting for /dev to be fully populated`.
 
-Now, the cause for this issue was pretty easy to find on Google, it was linux trying to wrap its little head around getting the graphics to work. 
+Now, the cause for this issue was pretty easy to find on Google, it was Linux trying to wrap its little head around getting the graphics to work. 
 Apparently this particular version of the kernel doesn't quite support the integrated graphics on a 12600 yet.  
 
 The solution came through these two posts on the Proxmox forums:
@@ -54,7 +54,7 @@ Next your installer might exit with the message `Cannot run in framebuffer mode.
 
 > Note: From here 'X' refers to the X Window System, if future versions of Proxmox ship with Wayland, god help us all.
 
-Hit `ctrl+alt+F2` to go to a seperate console that should be display X errors and allow you to perform some sneaky maintenance.  
+Hit `ctrl+alt+F2` to go to a separate console that should be display X errors and allow you to perform some sneaky maintenance.  
 Use the command `lspci | grep -i vga` to list PCI devices with 'vga' in them.
 
 It should list something like 
@@ -83,7 +83,7 @@ Then restart X with `xinit -- -dpi 96 >/dev/tty2 2>&1` and you should be golden.
 ## Clear skies
 
 After this Proxmox worked brilliantly, I hope they do release a non-graphical installer one day. 
-You administer Proxmox through a webinterface so actually requiring the system running it to have graphics is quite dumb.
+You administer Proxmox through a web interface so actually requiring the system running it to have graphics is quite dumb.
 
 {{< lightbox img="img/proxmox_overview.webp" group="none" caption="yes" alt="Proxmox main screen" >}}
 
