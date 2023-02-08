@@ -25,7 +25,7 @@ First, let me note that projects/:id/issues/:iid works fine without providing an
 Do mind that :iid is not a typo, it is GitLab's way of differentiating global IDs (:id) and context specific ID's (:iid). This is the reason that the first issue on your project can have ID 1 and so on.
 {{< /callout >}}
 
-So for this plan to work we'll need an API key. Take a look at the following image to see where you can add one. GitLab calls them Access Tokens.
+So for this plan to work we'll need an API key. In this case I decided to use a Project Access Token, this does restrict an instance of our code to only server 1 site, which is good enough for now. The reason for a Project Access Token is that we need the full API scope so we can potentially implement automatically adding a new issue. Using a Personal Access Token would increase risk of abusing the key significantly. Guests can manage project issues so that role should be sufficient.
 
 {{< lightbox img="img/gitlab-pat.webp" group="GitLab" center="yes" caption="Adding a new access token for GitLab is pretty easy" >}}
 
