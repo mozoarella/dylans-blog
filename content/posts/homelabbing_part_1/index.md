@@ -1,6 +1,6 @@
 ---
 title: "Homelabbing: Part 1"
-date: 2022-02-08T17:38:51+01:00
+date: 2023-02-09
 draft: false
 weight: 0
 tags: ['Homelab', 'Proxmox', 'Linux', 'Hardware']
