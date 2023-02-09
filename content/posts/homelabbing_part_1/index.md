@@ -1,7 +1,7 @@
 ---
 title: "Homelabbing: Part 1"
 date: 2023-02-09
-draft: false
+draft: true
 weight: 0
 tags: ['Homelab', 'Proxmox', 'Linux', 'Hardware']
 summary: "In this x part series Dylan explores the wonder of trying to run server workloads on consumer hardware. This is part 1 in which he struggles to install Proxmox VE"
