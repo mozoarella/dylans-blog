@@ -13,7 +13,7 @@ cover:
 ---
 
 In the past I have spent copious amounts of money on cloud computing services and I have decided that enough is enough.
-So now I'm spending copious amounts of hardware to hopefully make something that can pass as a server.
+So now I'm spending copious amounts of money on hardware to hopefully make something that can pass as a server.
 
 ## Specifications
 
