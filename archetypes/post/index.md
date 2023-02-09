@@ -4,6 +4,7 @@ date: {{ .Date }}
 draft: true
 weight: 0
 tags: []
+summary: ""
 cover:
     image: "img/header.jpg"
     alt: "Header image alt text"

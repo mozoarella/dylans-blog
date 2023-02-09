@@ -1,0 +1,8 @@
+<div id="post-tag-container">
+    <p>Find more posts tagged like this:</p>
+    <ul class="post-tags">
+        {{- range ($.GetTerms "tags") }}
+        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+        {{- end }}
+    </ul>
+</div>

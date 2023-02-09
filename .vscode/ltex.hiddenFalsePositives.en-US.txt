@@ -1,0 +1,14 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QGenerating and allowing a TSIG key\nRFC2136 specifies that Dynamic DNS Updates operations should use a TSIG (Transaction SIGnature) key to sign zone updates.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q{{}} Do note that you can add multiple TSIG keys by repeating these commands (with a different name in the place of 'blogpost', obviously) {{}}\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\QYou can tell that dnsdist was built to be flexible and fast rather than user-friendly but we got there in the end.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QDuring set-up, we've configured the PowerDNS Recursor to forward requests for test.lan to the authoritative nameserver.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q{{< lightbox img=\"img/PowerDNS_diagram_1.png\" group=\"diagrams\" center=\"si\" >}}\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QDnsdist\nDnsdist uses Lua for its configuration, it has a bit of a learning curve and the nesting of rules can get confusing quick.\\E$"}
+{"rule":"A_INFINITIVE","sentence":"^\\QAnd it's all wrapped in a be quiet!\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qimport-prefix - is either the full path of the module or a prefix.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qvcs - the version control system in use for the repository housing the module.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qvcs can also have the value 'mod' which is used to refer to a module proxy.\\E$"}
+{"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QBecause I wanted to do this through issue comments I went to the documentation on the \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q resource and to the \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q ({{< extlink url=\"https://docs.gitlab.com/ee/api/issues.html#comments-on-issues\" text=\"here\" >}}) you can find the text \"Comments are done via the notes resource.\" with a link to the Notes API resource.\\E$"}
+{"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QBecause I wanted to do this through issue comments I went to the documentation on the \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q resource and to the \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q subsection ({{< extlink url=\"https://docs.gitlab.com/ee/api/issues.html#comments-on-issues\" text=\"here\" >}}) you can find the text \"Comments are done via the notes resource.\" with a link to the Notes API resource.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q{{< lightbox img=\"img/gitlab-pat.webp\" group=\"GitLab\" center=\"yes\" caption=\"Adding a new access token for GitLab is pretty easy\" >}}\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QAs soon as you do reply to an issue comment nothing changes apart from the parent comment and your new reply suddenly being of type \"DiscussionNote\" rather than \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}

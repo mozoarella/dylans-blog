@@ -1,0 +1,28 @@
+{{ $icon_classes := false }}
+{{$bg_colour := false}}
+{{$fg_colour := false}}
+{{$ol_colour := false}}
+
+{{ with .Get "type" }}
+    {{ $callout_data := index $.Site.Data.callouts . }}
+    
+    {{$bg_colour = $callout_data.bg_colour}}
+    {{$fg_colour = $callout_data.fg_colour}}
+    {{$ol_colour = $callout_data.ol_colour}}
+
+    {{ if $callout_data.icon }}
+        {{ $icon_classes = $callout_data.icon }}
+    {{end}}
+{{else}}
+    {{ $callout_data := index $.Site.Data.callouts "default" }}
+    {{ $bg_colour = $callout_data.bg_colour }}
+    {{ $fg_colour = $callout_data.fg_colour }}
+    {{ $ol_colour = $callout_data.ol_colour }}
+{{end}}
+
+<div class="callout" style="background-color: {{$bg_colour}}; color: {{$fg_colour}}; border-color: {{$ol_colour}}">
+    {{if $icon_classes}}
+        <i class="{{$icon_classes}}"></i>
+    {{end}}
+    <p>{{ .Inner }}</p>
+</div>

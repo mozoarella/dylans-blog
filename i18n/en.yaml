@@ -1,0 +1,42 @@
+- id: prev_page
+  translation: "Prev Page"
+
+- id: next_page
+  translation: "Next Page"
+
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
+
+- id: words
+  translation:
+    one : "word"
+    other: "{{ .Count }} words"
+
+- id: toc
+  translation: "Table of Contents"
+
+- id: translations
+  translation: "Translations"
+
+- id: home
+  translation: "Home"
+
+- id: edit_post
+  translation: "Edit"
+
+- id: code_copy
+  translation: "copy"
+
+- id: code_copied
+  translation: "copied!"
+
+- id: thanks_title
+  translation: "Thanks for reading!"
+
+- id: thanks_text
+  translation: "If you have any feedback or questions regarding this post be sure to checkout <a href=\"https://dylanmaassen.nl\">my main site</a> to find ways to get in touch. Sharing is of course also really appreciated."
+
+- id: post_more_text
+  translation: "More to think about"

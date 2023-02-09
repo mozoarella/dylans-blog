@@ -13,11 +13,15 @@ enableGitInfo = true
 [params]
     defaultTheme= "dark"
     disableThemeToggle= true
+    fontawesomekit = "e042207efc"
     [params.assets]
         disableHLJS= true
     [params.homeInfoParams]
         Title= "Hiya!"
-        Content= "Welcome to my blog, I'm Dylan. You can visit my main <a href='https://dylanmaassen.nl'>website here</a>. This blog is mainly used as a braindump with the occasional useful tidbit about a project I'm working on."
+        Content= """Welcome to my blog, I'm Dylan. You can visit my main <a href='https://dylanmaassen.nl'>website here</a>.
+        This blog is mainly used as a braindump with the occasional useful tidbit about a project I'm working on.<br/><br/>
+        Do keep in mind that I am not a professional writer and english isn't my first language so grammar and spelling might go off the deep end.
+        """
     [params.fuseOpts]
         threshold= 0.1
 
