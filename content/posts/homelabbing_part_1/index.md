@@ -52,7 +52,9 @@ If those posts ever disappear, the steps are as follows:
 Change the boot options in Grub from `quiet splash = silent` to `nomodeset` to cause all boot messages to come through and to stop trying to load graphics drivers.  
 Next your installer might exit with the message `Cannot run in framebuffer mode. Please specify busIDs for all framebuffer devices`.
 
-> Note: From here 'X' refers to the X Window System, if future versions of Proxmox ship with Wayland, god help us all.
+{{< callout type="info" >}}
+Note: From here 'X' refers to the X Window System, if future versions of Proxmox ship with Wayland, god help us all.
+{{< /callout >}}
 
 Hit `ctrl+alt+F2` to go to a separate console that should be display X errors and allow you to perform some sneaky maintenance.  
 Use the command `lspci | grep -i vga` to list PCI devices with 'vga' in them.
