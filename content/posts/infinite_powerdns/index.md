@@ -1,6 +1,6 @@
 ---
 title: "Dealing with forward zones and Dynamic DNS Updates in PowerDNS"
-date: 2022-02-08T17:38:51+01:00
+date: 2023-02-10
 draft: true
 weight: 0
 tags: ["PowerDNS", "DNS", "dnsdist"]
