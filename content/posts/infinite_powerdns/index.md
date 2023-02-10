@@ -1,7 +1,7 @@
 ---
 title: "Dealing with forward zones and Dynamic DNS Updates in PowerDNS"
 date: 2023-02-10
-draft: true
+draft: false
 weight: 0
 tags: ["PowerDNS", "DNS", "dnsdist"]
 summary: "Or how I'm using PowerDNS Authoritative Server, Recursor and dnsdist to manage and update internal domains while also supporting forward lookups."
