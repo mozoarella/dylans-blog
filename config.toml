@@ -24,6 +24,8 @@ enableGitInfo = true
         """
     [params.fuseOpts]
         threshold= 0.1
+    [params.label]
+        icon = "/favicon-32x32.png"
 
 [markup]
     [markup.goldmark]
