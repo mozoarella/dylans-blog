@@ -26,6 +26,8 @@ enableGitInfo = true
         threshold= 0.1
     [params.label]
         icon = "/favicon-32x32.png"
+    [params.cover]
+        responsiveImages =false
 
 [markup]
     [markup.goldmark]
