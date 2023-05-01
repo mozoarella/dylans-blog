@@ -6,9 +6,8 @@ weight: 0
 tags: ['Homelab', 'Proxmox', 'Linux', 'Hardware']
 summary: "In this x part series Dylan explores the wonder of trying to run server workloads on consumer hardware. This is part 1 in which he struggles to install Proxmox VE"
 cover:
-    image: "img/server.webp"
-    alt: "A (human) server serving a croissant to a patron at a restaurant."
-    caption: "Haha they're a server, get it? (please laugh) - [Credit](https://www.pexels.com/photo/woman-in-black-long-sleeve-shirt-sitting-on-chair-3907080/)"
+    image: "img/header.png"
+    alt: "Header image containing the text 'Homelabbing: Part 1'"
     relative: true
 ---
 
