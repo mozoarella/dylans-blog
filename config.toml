@@ -25,9 +25,9 @@ enableGitInfo = true
     [params.fuseOpts]
         threshold= 0.1
     [params.label]
-        icon = "/favicon-32x32.png"
+        icon = "/android-chrome-192x192.png"
     [params.cover]
-        responsiveImages =false
+        responsiveImages = false
 
 [markup]
     [markup.goldmark]

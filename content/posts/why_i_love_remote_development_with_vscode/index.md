@@ -6,7 +6,7 @@ weight: 0
 tags: []
 summary: ""
 cover:
-    image: "img/header.png"
+    image: "img/header.jpeg"
     alt: "Header image containing the text 'Why I love remote development with Visual Studio Code'"
     relative: true
 ---

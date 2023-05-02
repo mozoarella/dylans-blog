@@ -6,7 +6,7 @@ weight: 0
 tags: ['Homelab', 'Proxmox', 'Linux', 'Hardware']
 summary: "In this x part series Dylan explores the wonder of trying to run server workloads on consumer hardware. This is part 1 in which he struggles to install Proxmox VE"
 cover:
-    image: "img/header.png"
+    image: "img/header.jpeg"
     alt: "Header image containing the text 'Homelabbing: Part 1'"
     relative: true
 ---
