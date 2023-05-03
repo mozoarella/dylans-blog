@@ -5,15 +5,18 @@ on:
     branches:
       - preview
       
-env:
-  CF_PAGES_URL: https://preview.dylans-blog.pages.dev
-  HUGO_ENV: development
-  HUGO_TITLE: "Dylan's Blog - Preview"
+
       
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     environment: Preview
+    env:
+      CF_PAGES_URL: https://preview.dylans-blog.pages.dev
+      HUGO_ENV: development
+      HUGO_TITLE: "Dylan's Blog - Preview"
+      CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -21,6 +24,18 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+      - name: Cache node modules
+        id: cache-npm
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -28,10 +43,12 @@ jobs:
           extended: true
       - name: Build the site
         run: hugo --baseURL=$CF_PAGES_URL --environment=$HUGO_ENV
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: dylans-blog
-          directory: ./public
+      #- name: Deploy to Cloudflare Pages
+      #  uses: cloudflare/pages-action@v1
+      #  with:
+      #    apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      #    accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+      #    projectName: dylans-blog
+      #    directory: ./public
+      - name: Deploy with Wrangler
+        run: npx wrangler@2 pages publish ./public --proejct-name dylans-blog --branch preview --commit-hash $GITHUB_SHA --commit-message ${{ github.event.head_commit.message }}
