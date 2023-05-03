@@ -1,4 +1,4 @@
-name: Deploy live blog
+name: Deploy preview blog
 
 on:
   push:
