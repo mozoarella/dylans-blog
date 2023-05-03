@@ -8,6 +8,7 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
+    environment: Production
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
