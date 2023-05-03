@@ -8,6 +8,7 @@ on:
 env:
   CF_PAGES_URL: https://preview.dylans-blog.pages.dev
   HUGO_ENV: development
+  HUGO_TITLE: "Dylan's Blog - Preview"
       
 jobs:
   build_and_deploy:
