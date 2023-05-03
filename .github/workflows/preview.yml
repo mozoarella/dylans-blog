@@ -50,5 +50,6 @@ jobs:
       #    accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
       #    projectName: dylans-blog
       #    directory: ./public
+      # see if it's faster now
       - name: Deploy with Wrangler
         run: npx wrangler@2 pages publish ./public --project-name dylans-blog --branch preview --commit-hash $GITHUB_SHA --commit-message "${{ github.event.head_commit.message }}"
