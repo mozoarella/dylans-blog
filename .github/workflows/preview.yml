@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - preview
-           
+      
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
@@ -15,6 +15,7 @@ jobs:
       HUGO_TITLE: "Dylan's Blog - Preview"
       CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -50,3 +51,10 @@ jobs:
       #    directory: ./public
       - name: Deploy with Wrangler
         run: npx wrangler@2 pages publish ./public --project-name dylans-blog --branch preview --commit-hash $GITHUB_SHA --commit-message "${{ github.event.head_commit.message }}"
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: dylans-blog
+          directory: ./public
