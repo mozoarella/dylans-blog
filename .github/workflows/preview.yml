@@ -42,19 +42,5 @@ jobs:
           extended: true
       - name: Build the site
         run: hugo --baseURL=$CF_PAGES_URL --environment=$HUGO_ENV
-      #- name: Deploy to Cloudflare Pages
-      #  uses: cloudflare/pages-action@v1
-      #  with:
-      #    apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      #    accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-      #    projectName: dylans-blog
-      #    directory: ./public
       - name: Deploy with Wrangler
         run: npx wrangler@2 pages publish ./public --project-name dylans-blog --branch preview --commit-hash $GITHUB_SHA --commit-message "${{ github.event.head_commit.message }}"
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: dylans-blog
-          directory: ./public
