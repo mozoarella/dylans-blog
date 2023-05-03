@@ -3,7 +3,7 @@ name: Deploy live blog
 on:
   push:
     branches:
-      - preview
+      - main
            
 jobs:
   build_and_deploy:
