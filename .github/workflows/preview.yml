@@ -51,4 +51,4 @@ jobs:
       #    projectName: dylans-blog
       #    directory: ./public
       - name: Deploy with Wrangler
-        run: npx wrangler@2 pages publish ./public --proejct-name dylans-blog --branch preview --commit-hash $GITHUB_SHA --commit-message ${{ github.event.head_commit.message }}
+        run: npx wrangler@2 pages publish ./public --proejct-name dylans-blog --branch preview --commit-hash $GITHUB_SHA --commit-message "${{ github.event.head_commit.message }}"
