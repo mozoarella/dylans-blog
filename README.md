@@ -6,6 +6,6 @@ The website can be generated with the static site generator Hugo. You should use
 
 Now deployed through GitHub actions.
 
-##Licensing
+## Licensing
 All of the 'source' bits such as templates, styles, scripts, configuration etc. are licensed under the MIT license.
 Content, unless otherwise specified, is licensed under the Creative Commons Attribution 4.0 International License.
