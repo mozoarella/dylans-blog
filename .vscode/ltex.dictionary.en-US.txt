@@ -28,3 +28,5 @@ bzr
 svn
 hg
 iid
+Fujifilm
+homelab
