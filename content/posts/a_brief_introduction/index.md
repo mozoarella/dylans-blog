@@ -66,7 +66,7 @@ Before this I've worked at {{<extlink text="Elonisas" url="https://elonisas.nl" 
 ### Future
 I intend to stay with de Volksbank for a while, it's a stable job with plenty of work to do. Not quite as stuck in legacy as people would have you believe about banks. Because it's a bank I can't speak as freely about all the moving parts as I usually would. But the direction we're heading is definitely exciting to me. {{<extlink text="We're also hiring" url="https://werkenbij.devolksbank.nl" >}} for plenty of positions, IT and otherwise. 
 
-### Closing thoughts
+## Closing thoughts
 I think that's enough for now, I think posts of random shit will be a frequent occurence. Mostly what floats to the top of my mind.
 
 
