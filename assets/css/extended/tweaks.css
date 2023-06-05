@@ -21,6 +21,10 @@ body {
     font-size: 17px;
 }
 
+a{
+    color: black;
+}
+
 .dark {
     --theme: rgb(29, 30, 32);
     --entry: rgb(46, 46, 51);
@@ -69,28 +73,9 @@ body {
     border-radius: 10px;
 }
 
-.callout p {
+.callout_content {
     padding: 20px;
     margin: 0;
-}
-
-.post-thanks{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    padding: 20px;
-    align-items: center;
-    margin: 10px 0 0 0;
-    background-color: #faf4ed;
-}
-
-.post-thanks div {
-    padding: 20px;
-    margin: 0;
-}
-
-.post-thanks a {
-    box-shadow: 0 1px;
 }
 
 .post-footer{

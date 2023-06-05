@@ -14,6 +14,8 @@ enableGitInfo = true
     defaultTheme= "light"
     disableThemeToggle= true
     fontawesomekit = "e042207efc"
+    ShowReadingTime = true
+    ShowWordCount = true
     [params.assets]
         disableHLJS= true
     [params.homeInfoParams]

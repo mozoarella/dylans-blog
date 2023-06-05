@@ -20,6 +20,10 @@ This is standard paragraph text, this is what it looks like **bold**, *in italic
 This is a default callout
 {{< /callout >}}
 
+{{< callout icon="fa-solid fa-hexagon-check fa-3x" bg_colour="#DDFFBB" fg_colour="#1572A1" ol_colour="#7882A4" >}}
+Default callouts can be customized with foreground, background and outline colours. I can also set a custom icon. The outline colour defaults to the background colour if it's set, otherwise the global default is used.
+{{< /callout >}}
+
 {{< callout type="info" >}}
 This is a callout of type "Info". Callouts are defined as data and also support `in line code`. Of course it also supports text that is **bold**, *in italics*, and with ~~strike through~~.
 {{< /callout >}}
@@ -32,8 +36,13 @@ This is a callout of type "Warning". Callouts are defined as data and also suppo
 This is a callout of type "Error". Callouts are defined as data and also support `in line code`. Of course it also supports text that is **bold**, *in italics*, and with ~~strike through~~.
 {{< /callout >}}  
 
-## Lightbox
+{{< callout icon="fa-solid fa-heart fa-3x" bg_colour="#faf4ed" >}}
+**Thanks for reading!** If you have any questions or feedback feel free to contact me through the means listed [on my main site](https://dylanmaassen.nl). Sharing my posts is also really appreciated!
+{{< /callout >}}
+
+## Lightboxes
 This is a lightbox
+
 {{< lightbox img="img/ducks.jpg" group="ducks" center="si" caption="Just a bunch of ducks" alt="Ducks" >}}
 
 ## Codeblock

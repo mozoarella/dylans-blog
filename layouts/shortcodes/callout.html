@@ -1,4 +1,4 @@
-{{ $icon_classes := false }}
+{{$icon_classes := false}}
 {{$bg_colour := false}}
 {{$fg_colour := false}}
 {{$ol_colour := false}}
@@ -15,14 +15,17 @@
     {{end}}
 {{else}}
     {{ $callout_data := index $.Site.Data.callouts "default" }}
-    {{ $bg_colour = $callout_data.bg_colour }}
-    {{ $fg_colour = $callout_data.fg_colour }}
-    {{ $ol_colour = $callout_data.ol_colour }}
+    {{ $icon_classes = (.Get "icon" | default nil) }}
+    {{ $bg_colour = (.Get "bg_colour" | default $callout_data.bg_colour) }}
+    {{ $fg_colour = (.Get "fg_colour" | default $callout_data.fg_colour) }}
+    {{ $ol_colour = (.Get "ol_colour" | default (.Get "bg_colour" | default $callout_data.ol_colour )) }}
 {{end}}
 
 <div class="callout" style="background-color: {{$bg_colour}}; color: {{$fg_colour}}; border-color: {{$ol_colour}}">
     {{if $icon_classes}}
         <i class="{{$icon_classes}}"></i>
     {{end}}
-    <p>{{ .Inner | markdownify }}</p>
+    <div class="callout_content">
+        {{ .Inner | markdownify }}
+    </div>
 </div>

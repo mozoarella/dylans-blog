@@ -1,7 +1,7 @@
 ---
 title: "Dealing with forward zones and Dynamic DNS Updates in PowerDNS"
-date: 2023-06-02
-draft: true
+date: 2023-02-10
+draft: false
 weight: 0
 tags: ["PowerDNS", "DNS", "dnsdist"]
 summary: "Or how I'm using PowerDNS Authoritative Server, Recursor and dnsdist to manage and update internal domains while also supporting forward lookups."
@@ -261,3 +261,7 @@ blogpost.test.lan.      60      IN      A       127.0.0.1
 
 ## Hurrah!
 You've made it to the end. Take a breather and pat yourself on the back. PowerDNS consists of quite cool pieces of software. You can tell that dnsdist was built to be flexible and fast rather than user-friendly but we got there in the end. As a next step you might want to look into utilizing the API in the different PowerDNS programs if you really want to up your automation game.
+
+{{< callout icon="fa-solid fa-heart fa-3x" bg_colour="#faf4ed" >}}
+**Thanks for reading!** If you have any questions or feedback feel free to contact me through the means listed [on my main site](https://dylanmaassen.nl). Sharing my posts is also really appreciated!
+{{< /callout >}}
