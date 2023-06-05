@@ -1,4 +1,4 @@
 icon = "fa-solid fa-circle-xmark fa-3x"
-bg_colour = "#600"
-ol_colour = "#4a0000"
-fg_colour = "#fff"
+bg_colour = "#FF9F9F"
+ol_colour = "#FF9F9F"
+fg_colour = "#000"

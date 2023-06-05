@@ -11,9 +11,11 @@ enableGitInfo = true
     home = ["HTML", "RSS", "JSON"]
 
 [params]
-    defaultTheme= "dark"
+    defaultTheme= "light"
     disableThemeToggle= true
     fontawesomekit = "e042207efc"
+    ShowReadingTime = true
+    ShowWordCount = true
     [params.assets]
         disableHLJS= true
     [params.homeInfoParams]
@@ -38,7 +40,7 @@ enableGitInfo = true
         guessSyntax= false
         lineNos= true
         lineNumbersInTable = true
-        style = 'paraiso-dark'
+        style = 'rose-pine-dawn'
 
 [menu]
     [[menu.main]]

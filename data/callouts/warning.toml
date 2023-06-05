@@ -1,4 +1,4 @@
 icon = "fa-solid fa-triangle-exclamation fa-3x"
-bg_colour = "#ac5900"
-ol_colour = "#e16a00"
-fg_colour = "#fff"
+bg_colour = "#FCDDB0"
+ol_colour = "#FCDDB0"
+fg_colour = "#000"
