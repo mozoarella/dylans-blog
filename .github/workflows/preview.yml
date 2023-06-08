@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: Preview
     env:
-      CF_PAGES_URL: https://preview.dylans-blog.pages.dev
+      CF_PAGES_URL: https://preview.dylans-blog.pages.dev/
       HUGO_ENV: development
       HUGO_TITLE: "Dylan's Blog - Preview"
       CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
