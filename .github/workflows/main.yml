@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: Production
     env:
-      CF_PAGES_URL: https://dylans.blog
+      CF_PAGES_URL: https://dylans.blog/
       HUGO_ENV: production
       HUGO_TITLE: "Dylan's Blog"
       CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
