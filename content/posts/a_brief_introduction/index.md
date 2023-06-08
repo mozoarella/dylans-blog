@@ -3,7 +3,7 @@ title: "A brief introduction to Dylan"
 date: 2023-06-05
 draft: false
 weight: 0
-tags: []
+tags: ["Personal", "Career", "Autism", "Education", "Mental health", "Music"]
 summary: "Originally I wanted to write seperate posts for this but one biggun is definitely the play here."
 cover:
     image: "img/header.jpeg"

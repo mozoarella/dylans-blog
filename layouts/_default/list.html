@@ -7,7 +7,11 @@
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
     {{- partial "breadcrumbs.html" . }}
-    <h1>{{if (eq .Type "tags")}}Posts tagged with {{ end }}"{{ .Title }}"</h1>
+    <h1>{{if (eq .Type "tags")}}
+            Posts tagged with "{{ .Title }}"
+            {{else if (eq .Type "posts")}}
+            All posts
+            {{ end }}</h1>
     {{- if .Description }}
     <div class="post-description">
         {{ .Description | markdownify }}
