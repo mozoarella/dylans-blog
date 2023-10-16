@@ -10,6 +10,10 @@ cover:
     alt: "Header image of Sonsbeek park with the title printed over it"
     caption: ""
     relative: true
+thanks:
+    icon: "fa-solid fa-heart fa-3x"
+    title: "Thanks for reading"
+    text: "If you have any questions or feedback feel free to contact me through the means listed [on my main site](https://dylanmaassen.nl). Sharing my posts is also really appreciated!"
 ---
 ## About me
 
@@ -52,7 +56,7 @@ Defnitely wouldn't call myself a programmer, but I do enjoy programming as a hob
 Good audio is a thing I can appreciate but not in the capacity of spending thousands of euros on equipment, music is a big part of my day even though I can't play an instrument. As for genres, I've always leaned towards alternative rock/garage rock, but I'm big enough to admit some pop artists make straight bangers. Do love me some glitches and shouty vocals as well.
 
 For my music taste I implore you to check out this playlist on Deezer (the widget doesn't support volume control so lower your system volume)
-<iframe title="deezer-widget" src="https://widget.deezer.com/widget/light/playlist/11430275564" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>  
+<div style="position: relative; padding-bottom: 100%; height: 0; overflow: hidden; max-width: 100%;"><iframe src="https://embed.tidal.com/playlists/1c0808cd-05da-4322-bcfc-277fa9da58ca?layout=gridify" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 1px; min-height: 100%; margin: 0 auto;"></iframe></div> 
 -
 
 I want to incorporate music into this blog, but I'm trying to figure out how. Spotify and Deezer widgets allow very limited playback and YouTube videos might not be available everywhere. I might end up just giving you a few titles.
@@ -69,7 +73,3 @@ I intend to stay with de Volksbank for a while, it's a stable job with plenty of
 ## Closing thoughts
 I think that's enough for now, I think posts of random shit will be a frequent occurence. Mostly what floats to the top of my mind.
 
-
-{{< callout icon="fa-solid fa-heart fa-3x" bg_colour="#faf4ed" >}}
-**Thanks for reading!** If you have any questions or feedback feel free to contact me through the means listed [on my main site](https://dylanmaassen.nl). Sharing my posts is also really appreciated!
-{{< /callout >}}

@@ -1,8 +1,8 @@
-<div class="post-thanks" style="">
-    <i class="fa-solid fa-heart fa-3x"></i>
-    <div>
-        <h3>{{i18n "thanks_title"}}</h3>
-        <p> {{i18n "thanks_text" | safeHTML}}</p>
+<div class="post-thanks callout" style="background-color: #faf4ed; color: #000; border-color: #faf4ed">
+    <i class="{{.Params.thanks.icon}}"></i>
+    <div class="callout_content">
+        <h3>{{.Params.thanks.title}}</h3>
+        <p>{{.Params.thanks.text | markdownify }}</p>
     </div>
 </div>
 

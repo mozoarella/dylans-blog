@@ -41,7 +41,7 @@ a{
     margin: 20px 5px;
     padding: 5px 14px;
     border-inline-start: 3px solid var(--primary);
-    background-color: #2f1e2e;
+    background-color: #edf9fa;
 }
 
 .post-content blockquote p:last-child{
@@ -100,5 +100,9 @@ a{
 .post-more-content{
     display: flex;
     flex-direction: row;
+}
+
+.post-thanks a{
+    text-decoration-line: underline;
 }
 
