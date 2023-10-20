@@ -1,0 +1,1 @@
+./blogimagegen --title "As I was saying" --font fonts/OpenSans_SemiCondensed-Bold.ttf --output ../content/posts/as_i_was_saying/img/header.jpg --fontsize 40 --format jpeg --quality 80 --bgimg bg/sonsbeek.jpg --overlay "0,0,0,10" --frame "0,0,0,100"
