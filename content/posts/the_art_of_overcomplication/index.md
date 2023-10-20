@@ -20,7 +20,7 @@ Is that going to stop me from using it anyway? *I don't think so.*
 
 ![A prompt in my editor to add "Overcomplicated" to the spell check dictionary](dictionary.png)
 
-It is merely the process of overcomplicating something. This is something that I catch myself doing all the time. Every new project I start, every single thing I try to do to 'improve' my workflows, ends up wasting a lot of time when I often end up on a road very well traveled and documented. Which incidentally is also why I stopped updating this blog. Well that and a severe lack of motivation, possibly related to aforementioned overcomplication.  
+It is merely the process of overcomplicating something. This is something that I catch myself doing all the time. Every new project I start, every single thing I try to do to 'improve' my workflows, ends up wasting a lot of time when I often end up on a road very well travelled and documented. Which incidentally is also why I stopped updating this blog. Well that and a severe lack of motivation, possibly related to aforementioned overcomplication.  
 
 To be fair, I do start of every overcomplication with the feeling that I can absolutely, **100%** do better than whatever has been done before. And often times my ideas are pretty good. But it's lacking either in available software, my own skills or simply the technical possibilities at the time.
 
@@ -34,12 +34,13 @@ New plan: Laptop I already had, an HDMI cable, and the program Synergy to share 
 As it turns out port forwarding through VS Code is pretty rubbish on Linux as well. So is trying to use a laptop exclusively with an external monitor. You gotta open it up to reach the power button, decrypt your hard drive and then let it boot completely before you can switch to the external monitor. All in all less than a minute of work but it's the kind of effort that makes me think twice about booting up. 
 
 ### And finally, bliss
-So, turns out one of the more well-known Chinese brands of mini PCs has a unit that pretty much has exactly the specs of my laptop. That's perfect since my programming usually doesn't end up being very resource intensive. It's not like I'm actually compiling or anything. Oh, and it was on sale, not weird for a chip that is now 3 years old, but it'll do nicely. Now, when I first tried to boot a Kubuntu Live CD I ended up with green screen. That usually points to the GPU being a little silly goofy. And the Windows 11 install it unexpectedly came with (I think they shipped me the more expensive version) wouldn't boot anymore. 
+So, turns out one of the more well-known Chinese brands of mini PCs has a unit that pretty much has exactly the specs of my laptop. That's perfect since my programming usually doesn't end up being very resource intensive. It's not like I'm actually compiling or anything. Oh, and it was on sale, not weird for a chip that is now 3 years old, but it'll do nicely. Now, when I first tried to boot a Kubuntu Live CD I ended up with green screen. That usually points to the GPU being a little silly goofy. And the Windows 11 install it unexpectedly came with (I think they shipped me the more expensive version) wouldn't boot any more. 
 
 I was ready to register a return but decided to follow the manual's suggestion of clearing the CMOS, for which the unit has a pinhole up front. I fully expected this to not work because the unit was factory new. But lo and behold, Windows booted again and Kubuntu would load properly 🥳 Since then I've also learnt that the little HDMI switcher I have is trash (well I was asking it to do something above spec, so that's my bad.) and either the mini-pc or my USB-C dongle supports either display or USB, not both. But hey, I got a pretty stellar little Linux machine for under 300 euros, so I'm not complaining.  
-
 
 ### Experiences over possessions
 Starting 2020 I decided I wanted to experience more, starting with concerts. Well Broadway musical would be another one if they do actually perform them here at some point. Of course, we needn't dwell on what happened in 2020. I got exactly 1 concert in and the others got cancelled. Although, seeing Cage the Elephant was probably the best first concert experience I could've had, and I was in luck because it was the last show of the tour the managed to do.
 
-Then came 2022, and I got to see Modest Mouse live. One of my all-time favourite bands
+Then came 2022, and I got to see Modest Mouse live. One of my all-time favourite bands. I did have to stay in a wildly overpriced hotel in Amsterdam because it was also TwitchCon at the same time. That did not detract from the experience, the band was on fire, the venue was nice. There was a guy next to me full-body rocking out to every song and god I wish I had that confidence.
+
+While writing the last paragraph I stopped in the middle because I had to leave for my first concert of the year (in October, so there won't be many to follow lmao). I went to go see Spinvis which is one of the few Dutch musicians I listen to. 
