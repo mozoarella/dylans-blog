@@ -41,6 +41,9 @@
   {{- end }}
 
   <footer class="post-footer">
+    {{- if .Params.thanks }}
+      {{- partial "post_thanks.html" . }}
+    {{- end}}
     {{/*- partial "post_more.html" . */}}
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}

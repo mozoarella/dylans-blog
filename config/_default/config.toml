@@ -46,11 +46,11 @@ enableGitInfo = true
     [[menu.main]]
         identifer = 'search'
         name = 'Search'
-        pre = '🔎'
+        pre = '🔎 '
         url = '/search/'
         weight = 10
     [[menu.main]]
-    identifer = 'archive'
-    name = 'Archive'
-    url = '/archive/'
-    weight = 20
+        identifer = 'archive'
+        name = 'Archive'
+        url = '/archive/'
+        weight = 20
