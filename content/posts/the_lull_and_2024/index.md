@@ -3,8 +3,8 @@ title: "The Lull and The Spark of 2024"
 date: 2024-05-17T22:17:41+02:00
 draft: false
 weight: 0
-tags: []
-summary: ""
+tags: ["Personal", "Tibby"]
+summary: "In this one I waffle a bit about new projects and failures of the past few months"
 cover:
     image: "img/header.jpg"
     alt: "Header image with the title"
