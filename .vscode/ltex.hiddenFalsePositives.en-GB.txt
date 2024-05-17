@@ -1,0 +1,2 @@
+{"rule":"IT_IS","sentence":"^\\QTurns out it's pretty difficult to simplify something you don't\\E$"}
+{"rule":"IT_IS","sentence":"^\\QTurns out it's pretty difficult to simplify something you don't quite understand yourself.\\E$"}

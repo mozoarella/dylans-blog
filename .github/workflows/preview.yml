@@ -20,23 +20,27 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Cache node modules
         id: cache-npm
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         env:
           cache-name: cache-node-modules
         with:
           path: ~/.npm
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.111.3'
+          hugo-version: '0.126.1'
           extended: true
       - name: Build the site
         run: hugo --baseURL=$CF_PAGES_URL --environment=$HUGO_ENV
       - name: Deploy with Wrangler
-        run: npx wrangler@2 pages publish ./public --project-name $CLOUDFLARE_PROJECT_NAME --branch ${{ github.base_ref }} --commit-hash ${{ github.sha }} --commit-message "${{ github.event.head_commit.message }}"
+        run: npx wrangler@3 pages deploy ./public --project-name $CLOUDFLARE_PROJECT_NAME --branch ${{ github.base_ref }} --commit-hash ${{ github.sha }} --commit-message "${{ github.event.head_commit.message }}"
