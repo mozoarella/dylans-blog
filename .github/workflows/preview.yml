@@ -43,4 +43,4 @@ jobs:
       - name: Build the site
         run: hugo --baseURL=$CF_PAGES_URL --environment=$HUGO_ENV
       - name: Deploy with Wrangler
-        run: npx wrangler@3 pages publish ./public --project-name $CLOUDFLARE_PROJECT_NAME --branch ${{ github.base_ref }} --commit-hash ${{ github.sha }} --commit-message "${{ github.event.head_commit.message }}"
+        run: npx wrangler@3 pages deploy ./public --project-name $CLOUDFLARE_PROJECT_NAME --branch ${{ github.base_ref }} --commit-hash ${{ github.sha }} --commit-message "${{ github.event.head_commit.message }}"
