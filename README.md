@@ -10,4 +10,4 @@ Command for local development here for my own reference `hugo server --bind 0.0.
 
 ## Licensing
 All of the 'source' bits such as templates, styles, scripts, configuration etc. are licensed under the MIT license.
-Content, unless otherwise specified, is licensed under the Creative Commons Attribution 4.0 International License..
+Content, unless otherwise specified, is licensed under the Creative Commons Attribution 4.0 International License.
