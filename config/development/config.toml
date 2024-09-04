@@ -1,1 +1,15 @@
 buildDrafts = true
+
+
+
+
+[server]
+  [[server.headers]]
+    for = '/**'
+    [server.headers.values]
+      Content-Security-Policy = "default-src 'self'; style-src fonts.googleapis.com 'self' 'unsafe-inline'; font-src 'self' fonts.gstatic.com ka-p.fontawesome.com; script-src kit.fontawesome.com 'self'; connect-src 'self' kit.fontawesome.com ka-p.fontawesome.com; img-src 'self' data:; frame-src embed.tidal.com"
+      Referrer-Policy = 'strict-origin-when-cross-origin'
+      X-Content-Type-Options = 'nosniff'
+      X-Frame-Options = 'DENY'
+      X-XSS-Protection = '1; mode=block'
+
