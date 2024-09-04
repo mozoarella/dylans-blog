@@ -5,4 +5,4 @@
 	X-Content-Type-Options : nosniff
 	Referrer-Policy : strict-origin-when-cross-origin
 	Permissions-Policy : fullscreen=(self 'https://www.youtube.com'), interest-cohort=(), geolocation=(), microphone=(), camera=()
-	Content-Security-Policy : default-src 'self'; style-src fonts.googleapis.com 'self' 'unsafe-inline'; font-src 'self' fonts.gstatic.com ka-p.fontawesome.com; script-src kit.fontawesome.com 'self'; connect-src 'self' kit.fontawesome.com ka-p.fontawesome.com; img-src 'self' data:; frame-src embed.tidal.com
+	Content-Security-Policy : default-src 'self'; style-src fonts.googleapis.com 'self' 'unsafe-inline'; font-src 'self' fonts.gstatic.com ka-p.fontawesome.com; script-src kit.fontawesome.com 'self'; connect-src 'self' kit.fontawesome.com ka-p.fontawesome.com; img-src 'self' data:; frame-src embed.tidal.com; frame-ancestors 'none'
