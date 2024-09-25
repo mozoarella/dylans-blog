@@ -5,10 +5,6 @@ draft: false
 weight: 0
 tags: ["Personal", "Tibby", "Untitled Wolf Game", "B2"]
 summary: "In this one I waffle a bit about new projects and failures of the past few months"
-cover:
-    image: "img/header.jpg"
-    alt: "Header image with the title"
-    relative: true
 thanks:
     icon: "fa-solid fa-heart fa-3x"
     title: "Thanks for reading"
