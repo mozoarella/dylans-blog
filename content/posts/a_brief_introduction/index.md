@@ -5,11 +5,6 @@ draft: false
 weight: 0
 tags: ["Personal", "Career", "Autism", "Education", "Mental health", "Music"]
 summary: "Originally I wanted to write seperate posts for this but one biggun is definitely the play here."
-cover:
-    image: "img/header.jpeg"
-    alt: "Header image of Sonsbeek park with the title printed over it"
-    caption: ""
-    relative: true
 thanks:
     icon: "fa-solid fa-heart fa-3x"
     title: "Thanks for reading"

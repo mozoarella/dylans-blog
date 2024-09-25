@@ -6,10 +6,6 @@ weight: 0
 tags: ["PowerDNS", "DNS", "dnsdist"]
 summary: "Or how I'm using PowerDNS Authoritative Server, Recursor and dnsdist to manage and update internal domains while also supporting forward lookups."
 ShowToc: true
-cover:
-    image: "img/header.jpeg"
-    alt: "Header image containing the text 'Dealing with forward zones and Dynamic DNS Updates in PowerDNS'"
-    relative: true
 ---
 
 For the services I'm hosting at home I wanted an internal domain to make accessing those services easier. Because no one likes remembering IP addresses.  

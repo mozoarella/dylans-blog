@@ -6,11 +6,6 @@ draft: false
 weight: 0
 tags: []
 summary: ""
-cover:
-    image: "img/header.jpeg"
-    alt: ""
-    caption: ""
-    relative: true
 ---
 
 ## Nothing ever comes easy, does it?
