@@ -106,3 +106,7 @@ a{
     text-decoration-line: underline;
 }
 
+.article-image {
+    box-shadow: 1px 2px 4px 0px #bebebe;
+}
+
