@@ -60,6 +60,9 @@
             {{- .Title }}
             {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
         </h2>
+        {{if .Params.tags}}
+        <span class="entry-tags">Tagged with {{ range $i, $t := .Params.tags }}{{ if $i }}, {{ end }}{{$t}}{{ end }}</span>   
+        {{end}}
     </header>
     {{- if (ne (.Param "hideSummary") true) }}
     <section class="entry-content">
