@@ -3,12 +3,19 @@ document.querySelectorAll('pre > code').forEach((codeblock) => {
 
     const copybutton = document.createElement('button');
     copybutton.classList.add('copy-code');
-    copybutton.innerText = '{{- i18n "code_copy" | default "copy" }}';
+    copybutton.innerText = 'copy';
 
     function copyingDone() {
-        copybutton.innerText = '{{- i18n "code_copied" | default "copied!" }}';
+        copybutton.innerText = 'copied!';
         setTimeout(() => {
-            copybutton.innerText = '{{- i18n "code_copy" | default "copy" }}';
+            copybutton.innerText = 'copy';
+        }, 2000);
+    }
+
+    function copyingFail() {
+        copybutton.innerText = 'Copying not supported!';
+        setTimeout(() => {
+            copybutton.innerText = 'copy';
         }, 2000);
     }
 
@@ -19,16 +26,7 @@ document.querySelectorAll('pre > code').forEach((codeblock) => {
             return;
         }
 
-        const range = document.createRange();
-        range.selectNodeContents(codeblock);
-        const selection = window.getSelection();
-        selection.removeAllRanges();
-        selection.addRange(range);
-        try {
-            document.execCommand('copy');
-            copyingDone();
-        } catch (e) { };
-        selection.removeRange(range);
+        copyingFail();
     });
 
     if (container.classList.contains("highlight")) {

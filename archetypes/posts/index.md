@@ -5,11 +5,6 @@ draft: true
 weight: 0
 tags: []
 summary: ""
-cover:
-    image: "img/header.jpg"
-    alt: "Header image alt text"
-    caption: "header image caption"
-    relative: true
 thanks:
     icon: "fa-solid fa-heart fa-3x"
     title: "Thanks for reading"
